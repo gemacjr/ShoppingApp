@@ -13,6 +13,7 @@
 		2C7F2B141B7AA5C3008D710E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7F2B131B7AA5C3008D710E /* Images.xcassets */; };
 		2C7F2B171B7AA5C3008D710E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7F2B151B7AA5C3008D710E /* LaunchScreen.xib */; };
 		2C7F2B231B7AA5C4008D710E /* ShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F2B221B7AA5C4008D710E /* ShoppingTests.swift */; };
+		2C7F2B2E1B7AAA23008D710E /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F2B2D1B7AAA23008D710E /* GenericVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2C7F2B1C1B7AA5C4008D710E /* ShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7F2B211B7AA5C4008D710E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7F2B221B7AA5C4008D710E /* ShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTests.swift; sourceTree = "<group>"; };
+		2C7F2B2D1B7AAA23008D710E /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2C7F2B091B7AA5C3008D710E /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				2C7F2B2C1B7AA9ED008D710E /* Generic Classes */,
 				2C7F2B0C1B7AA5C3008D710E /* AppDelegate.swift */,
 				2C7F2B0E1B7AA5C3008D710E /* ViewController.swift */,
 				2C7F2B101B7AA5C3008D710E /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				2C7F2B211B7AA5C4008D710E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C7F2B2C1B7AA9ED008D710E /* Generic Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C7F2B2D1B7AAA23008D710E /* GenericVC.swift */,
+			);
+			name = "Generic Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7F2B2E1B7AAA23008D710E /* GenericVC.swift in Sources */,
 				2C7F2B0F1B7AA5C3008D710E /* ViewController.swift in Sources */,
 				2C7F2B0D1B7AA5C3008D710E /* AppDelegate.swift in Sources */,
 			);
